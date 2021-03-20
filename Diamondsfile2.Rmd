@@ -1,0 +1,14 @@
+---
+title: "Diamondsfile2"
+author: "Sarah Hassan"
+date: "3/19/2021"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(dplyr)
+diamonds%>%
+ select(price, color, x)
+```
+
